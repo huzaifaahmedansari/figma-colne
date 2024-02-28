@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+navbar{
+    display: flex;
+    /* justify-content: center; */
+    /* margin-left: 30px; */
+    align-items: center;
+    /* border: 3px solid black; */
+    box-shadow: 1px 1px 3px black;
+}
+
+.spn{
+    margin-left: 210px;
+}
+
+.logo{
+    height: 100px;
+    width: 70pxs;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.navtext{
+    margin-left: 30px;
+   font-size: larger;
+}
+
+.start{
+    margin-left: 30px;
+    font-size: large;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.start  :hover{
+    font-weight: bold;
+    transform: scale(2px);
+    background-color: rgb(53, 51, 51);
+}
+
+.spn :hover{
+    text-decoration: underline;
+    color: rgb(45, 134, 250); 
+}
+
+.carousel{
+    margin-top: 30px !important;
+}
+
+.btn{
+margin: 30px;
+}
+
+.design{
+    color: blue;
+}
+
+.desig{
+    /* text-decoration: underline; */
+    border-bottom: 1px groove rgb(53, 52, 52);
+    margin: 0%;
+}
+
+.btnsecond{
+    /* height: 30px; */
+    padding: 12px;
+    border-radius: 12px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 39px;
+}
+
+.btnsecond :hover{
+   transform: scale(1.2px);
+}
